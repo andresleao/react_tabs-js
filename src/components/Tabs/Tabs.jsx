@@ -2,6 +2,7 @@ import cn from 'classnames';
 
 export const Tabs = ({ tabs, activeTabId, onTabSelected }) => {
   const activeTab = tabs.find(tab => tab.id === activeTabId) || tabs[0];
+  //
 
   return (
     <div className="section">
